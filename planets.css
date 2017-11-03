@@ -13,6 +13,10 @@ sup{
   font-size: 0.7em;
 }
 
+em{
+  font-style: italic;
+}
+
 p{
   color: white;
 }
@@ -50,8 +54,16 @@ td{
   width: 100%;
 }
 
+#foot{
+  position: absolute;
+  bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+  text-align: center;
+}
+
 .th{
-  font-weight:bold;
   position: relative;
   left: 5%;
 }
