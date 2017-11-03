@@ -8,6 +8,12 @@ body{
   background-attachment: fixed;
 }
 
+td{
+  color:white;
+  font-size: 1.1875em;
+  width:16%;
+}
+
 sup{
   vertical-align:top;
   font-size: 0.7em;
@@ -71,9 +77,3 @@ p{
   position: relative;
   left: 9%;
 }
-
-td{
-  color:white;
-  font-size: 1.1875em;
-}
-
