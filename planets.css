@@ -1,7 +1,16 @@
+html{
+  overflow-x: hidden;
+}
+
 body{
   background-image: url('media/asteroids.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+sup{
+  vertical-align:top;
+  font-size: 0.7em;
 }
 
 p{
@@ -13,19 +22,9 @@ header{
   margin-bottom: 1.5em;
 }
 
-/*td{
-  padding: 0.58em;
-  text-align: center;
-}*/
-
 tr{
   border: solid #aae6df;
 }
-
-/*td{
-  margin-top: auto;
-  margin-bottom: auto;
-}*/
 
 #he1{
   padding-top: 1em;
@@ -55,26 +54,26 @@ p{
 #tdata1{
   position: relative;
   left: 12%;
-  width:10%;
+  
 }
 
 #tdata2{
   position: relative;
-  left: 12%;
+  left: 11%;
 }
 
 #tdata3{
   position: relative;
-  left: 12%;
+  left: 10%;
 }
 
 #tdata4{
   position: relative;
-  left: 12%;
+  left: 9%;
 }
 
-td{color:white;}
-
-.mid{
-  text-align: center;
+td{
+  color:white;
+  font-size: 1.1875em;
 }
+
